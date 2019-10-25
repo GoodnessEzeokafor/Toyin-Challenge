@@ -70,10 +70,9 @@ function renderBucketList(){
 window.addEventListener('load', async()=>{
     client = await Ae.Aepp();
     bucketlistListLength = await callStatic('getArticleLength',[]);
-    bucketlist_owner = await callStatic('get_caller',[])
+    bucketlist_owner = await callStatic('get_caller',[])    
+    console.log("bucketlistListLength:", bucketlistListLength)
+    console.log("Owner:",bucketlist_owner)
 
 })
 
-
-console.log("bucketlistListLength:", bucketlistListLength)
-console.log("Owner:",bucketlist_owner)
