@@ -32,7 +32,7 @@ contract BucketList =
 
 
 // Deployed Contract Address
-var contractAddress = "ct_2D9qw6ktJ2qnvKnUBdSunGzyXp9zat4hq6dvchy9Ew3nce9atS"
+var contractAddress = "ct_iP4gbaPnBj19fUMijoWuux7YFwLqzF43VHBcok8uu7CtjFYVy"
 var client = null // client defuault null
 var bucketlist_arr = [] // empty arr
 var bucketlists_length = 0 // empty bucjetlist list lenghth
