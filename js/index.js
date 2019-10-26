@@ -32,7 +32,7 @@ contract BucketList =
 
 
 // Deployed Contract Address
-var contractAddress = "ct_afybJhD2pHkgfuY9y3c6kMqktumN9nfYBcCkN8yeiyui2Ein3"
+var contractAddress = "ct_2D9qw6ktJ2qnvKnUBdSunGzyXp9zat4hq6dvchy9Ew3nce9atS"
 var client = null // client defuault null
 var bucketlist_arr = [] // empty arr
 var bucketlists_length = 0 // empty bucjetlist list lenghth
@@ -73,6 +73,5 @@ window.addEventListener('load', async()=>{
     bucketlist_owner = await callStatic('get_caller',[])    
     console.log("bucketlistListLength:", bucketlists_length)
     console.log("Owner:",bucketlist_owner)
-
 })
 
